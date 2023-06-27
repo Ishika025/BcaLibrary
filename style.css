@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Montserrat";
+    justify-content: center;
+    align-items: center;
+    
+}
+#title{
+    background-color: #687397;
+}
+.container-fluid{
+  padding: 3% 10%;
+}
+h1{
+    font-family: "Montserrat-Black";
+    size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+h2{
+    color: #eeebeb;
+}
+h3{
+    font-family: Montserrat-Bold, sans-serif;
+    color: #687397;
+}
+p{
+    
+    color: #eeebeb;
+}
+a{
+    text-decoration: none; font-weight: 1.2rem; color: white;
+}
+/*navbar section*/
+.navbar{
+    padding:0 0 2.5rem;
+}
+.img-fluid{
+    height: 50px; border-radius: 50%;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0% 8%;
+    margin-right: 2px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 1.2rem;
+    font-family: "Montserrat-Light";
+    color:#687397
+}
+.navbar-nav{
+    justify-content: space-evenly;
+}
+/*title section*/
+.title-img{
+    width:420px;
+    margin-right: 10px;
+}
+/*courses section*/
+#courses{
+    padding: 7% 15%;
+    background-color: rgb(247, 243, 243);
+}
+.course-box{
+    text-align: center;
+}
+.section-heading{
+    padding: auto;
+}
+
+/*notes*/
+#notes{
+    text-align: center;
+    background-color: #687397;
+    justify-content: center;
+}
+.notes-column{
+    padding: 3% 2%;
+}
+.notes-img{
+    width: 150px;
+    border-radius: 200%;
+    margin:10%;
+}
+.notes-p{
+    color: #687397;
+}
+button{
+    background-color: #687397;
+    color: white;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    padding: 2px;
+  }
+
+.card{
+    width: auto;
+
+}
+
+
+#footer{
+    text-align: center;
+}
+.course-img{
+    height: 50%;
+    width: 30%;
+    padding: 1px;
+    margin: 1px;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+}
